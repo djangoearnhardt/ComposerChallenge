@@ -1,0 +1,50 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Kee",
+    "imageURL": "https://lh3.googleusercontent.com/proxy/qSH-wfEfyfgpKviZ8I0DOBM3kwcR2CslJTCWRvui29UMX4zXVs4gIXPnxXg8ghrtRrOVncgBw4JthafNySLRpu2g8HAQIdw_oCiiMYdqRRLgnx54y48-6g",
+    "alternateImageURL": "https://bloximages.chicago2.vip.townnews.com/wacotrib.com/content/tncms/assets/v3/editorial/5/1f/51f8aecb-48c2-56b4-803b-509d2025104e/5bcf9a58c166f.image.jpg?crop=1421%2C1421%2C0%2C18&resize=1421%2C1421&order=crop%2Cresize",
+    "bio": "John P. Kee (born John Prince Kee on June 4, 1962) is an American gospel singer and pastor.",
+    "genre": "gospel"
+  },
+  {
+    "firstName": "Claude",
+    "lastName": "Bolling",
+    "imageURL": "https://www.gannett-cdn.com/presto/2021/01/01/USAT/b45d171f-f677-4908-829f-91f89bef6826-AFP_AFP_8XX96E.jpg",
+    "alternateImageURL": "https://www.lejazzophone.com/wp-content/uploads/2020/12/bolling-Salvador.jpg",
+    "bio": "He was born in Cannes, France, and studied at the Nice Conservatory, and then in Paris. A child prodigy, by the age of 14 he was playing jazz piano professionally, with Lionel Hampton, Roy Eldridge, and Kenny Clarke. Bolling's books on jazz technique show that he did not delve far beyond bebop into much avant-garde jazz. He was a major part of the traditional jazz revival in the late 1960s, and he became friends with Oscar Peterson.",
+    "genre": "classical"
+  },
+  {
+    "firstName": "Edmar",
+    "lastName": "Castañeda",
+    "imageURL": "https://i0.wp.com/www.eyeshotjazz.com/wp-content/uploads/2015/10/jazz-photo-2.jpg",
+    "alternateImageURL": "https://www.grammy.com/sites/com/files/edmar_adrien_h_tillmann.png",
+    "bio": "Edmar Castañeda (born 1978) is a Colombian harpist. He performs his own compositions as well as tapping into native music of Colombia and Venezuela.",
+    "genre": "jazz"
+  },
+  {
+    "firstName": "Mauro",
+    "lastName": "Ottolini",
+    "imageURL": "https://s3.amazonaws.com/allaboutjazz/photos/a_large/9b3387f376c9f317e759c08d34417905.jpg",
+    "alternateImageURL": "https://www.zetatielle.com/wp-content/uploads/2020/02/Mauro-Ottolini-e-lorchestra-Ottovolante.jpg",
+    "bio": "Mauro Ottolini (Bussolengo, 14 April 1972) is an Italian trombonist, composer and conductor of jazz music. He is one of the most experimental Italian jazz musicians, working on conceptual and instrumental research. For years he has expressed his talent as a composer and as an arranger, not only for projects under his name, but also for important jazz, rock, pop and avant-garde bands.",
+    "genre": "jazz"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Gansch",
+    "imageURL": "https://talkingtrumpet.files.wordpress.com/2018/06/thomas-gansch.jpg",
+    "alternateImageURL": "https://viennaartsmanagement.com/wp-content/uploads/2019/04/BG_Gansch-800x800.jpg",
+    "bio": "Thomas Gansch (born December 31, 1975 , St. Pölten) is a well-known Vienna-based Austrian trumpet player. In 1992 the brass septet Mnozil Brass was founded in which he has since played first trumpet.",
+    "genre": "classical"
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Morton",
+    "imageURL": "https://www.grammy.com/sites/com/files/styles/news_detail_header/public/p1140926.jpg?itok=V_55aH4R",
+    "alternateImageURL": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/e/6a/e6a9f5b8-162d-11ea-83ac-87aaeea742f7/5de6ff6da9975.image.jpg?resize=1200%2C800",
+    "bio": "P.J. Morton (born Paul Morton Jr.; March 29, 1981) is an American Grammy winning musician, singer, songwriter and record producer. Since 2012, he has been one of the keyboardists, alongside Jesse Carmichael, for the pop rock band Maroon 5. Morton originally joined the band as a touring member in 2010 and became an official member in 2012 after Carmichael went on indefinite hiatus (he returned to the lineup in 2014).",
+    "genre": "gospel"
+  }
+]
