@@ -44,6 +44,7 @@ class ComposersTableViewController: UITableViewController {
         return composers.count
     }
 
+    // You will have to cast your UITableViewCell as the ComposerTableViewCell to get it in your view
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
         cell.textLabel?.text = composers[indexPath.row].firstName

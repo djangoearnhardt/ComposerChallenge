@@ -18,7 +18,8 @@
 		5A4168E826CFF4280037F421 /* Composers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A4168E726CFF4280037F421 /* Composers.json */; };
 		5A4168EA26CFFFEB0037F421 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168E926CFFFEB0037F421 /* Composer.swift */; };
 		5A4168EC26D001630037F421 /* ComposerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168EB26D001630037F421 /* ComposerManager.swift */; };
-		5A4168F426D310790037F421 /* ComposerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168F326D310790037F421 /* ComposerCellView.swift */; };
+		5A4168F626D317490037F421 /* ComposerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168F526D317490037F421 /* ComposerTableViewCell.swift */; };
+		5A4168F826D317610037F421 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168F726D317610037F421 /* ComposerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,8 @@
 		5A4168E726CFF4280037F421 /* Composers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Composers.json; sourceTree = "<group>"; };
 		5A4168E926CFFFEB0037F421 /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
 		5A4168EB26D001630037F421 /* ComposerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerManager.swift; sourceTree = "<group>"; };
-		5A4168F326D310790037F421 /* ComposerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerCellView.swift; sourceTree = "<group>"; };
+		5A4168F526D317490037F421 /* ComposerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerTableViewCell.swift; sourceTree = "<group>"; };
+		5A4168F726D317610037F421 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,8 @@
 		5A4168EF26D028AE0037F421 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5A4168F326D310790037F421 /* ComposerCellView.swift */,
+				5A4168F726D317610037F421 /* ComposerView.swift */,
+				5A4168F526D317490037F421 /* ComposerTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,10 +316,11 @@
 			files = (
 				5A4168EC26D001630037F421 /* ComposerManager.swift in Sources */,
 				5A12238B26CFF21B0003C78D /* AppDelegate.swift in Sources */,
-				5A4168F426D310790037F421 /* ComposerCellView.swift in Sources */,
 				5A4168EA26CFFFEB0037F421 /* Composer.swift in Sources */,
+				5A4168F626D317490037F421 /* ComposerTableViewCell.swift in Sources */,
 				5A4168E526CFF2D70037F421 /* ComposersTableViewController.swift in Sources */,
 				5A12238D26CFF21B0003C78D /* SceneDelegate.swift in Sources */,
+				5A4168F826D317610037F421 /* ComposerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
