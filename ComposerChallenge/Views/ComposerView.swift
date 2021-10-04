@@ -109,13 +109,16 @@ class ComposerView: UIView {
         let views = [composerImageView, nameLabel, bioLabel, alternateImageButton]
         
         // For each view, turn their property `.translatesAutoresizingMaskIntoConstraints` to be false
-        
+        composerImageView.translatesAutoresizingMaskIntoConstraints = false
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Constrain each view
         
-        // composerImageView
+        
+        // composerImageView; topAnchor, leadingAnchor, trailingAnchor, height, width
         NSLayoutConstraint.activate([
-            
+            composerImageView.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            composerImageView.centerXAnchor.constraint(equalTo: self.centerXAnchor)
         ])
         
         // nameLabel
