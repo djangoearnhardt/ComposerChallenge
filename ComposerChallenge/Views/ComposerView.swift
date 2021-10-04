@@ -65,6 +65,7 @@ class ComposerView: UIView {
     let nameLabel: UILabel = {
         let uiLabel = UILabel()
         uiLabel.textColor = .black
+        uiLabel.backgroundColor = .lightGray
         uiLabel.layer.borderWidth = 5
         uiLabel.layer.borderColor = UIColor.black.cgColor
         return uiLabel
@@ -73,6 +74,7 @@ class ComposerView: UIView {
     let bioLabel: UILabel = {
         let uiLabel = UILabel()
         uiLabel.textColor = .black
+        uiLabel.backgroundColor = .lightGray
         uiLabel.layer.borderWidth = 5
         uiLabel.layer.borderColor = UIColor.black.cgColor
         return uiLabel
@@ -80,6 +82,7 @@ class ComposerView: UIView {
     
     let alternateImageButton: UIButton = {
         let alternateImageButton = UIButton()
+        alternateImageButton.backgroundColor = .lightGray
         
         return alternateImageButton
     }()
@@ -116,9 +119,17 @@ class ComposerView: UIView {
         // Create an array of your views
         let views = [composerImageView, nameLabel, bioLabel, alternateImageButton]
         
+     // TODO: - Can we replace the constraints below with:
+        // for view in views {
+        //    view.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+        //    view.translatesAutoresizingMaskIntoConstraints = false,
+        //    ETC?
+        
         // For each view, turn their property `.translatesAutoresizingMaskIntoConstraints` to be false
         composerImageView.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        bioLabel.translatesAutoresizingMaskIntoConstraints = false
+        alternateImageButton.translatesAutoresizingMaskIntoConstraints = false
         
         // Constrain each view
         
@@ -132,7 +143,8 @@ class ComposerView: UIView {
         // nameLabel
         NSLayoutConstraint.activate([
             nameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            nameLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor)
+            nameLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            nameLabel.heightAnchor.constraint(equalTo: <#T##NSLayoutAnchor<NSLayoutDimension>#>)
         ])
         
         // bioLabel
