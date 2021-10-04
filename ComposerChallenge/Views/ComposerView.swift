@@ -60,8 +60,6 @@ class ComposerView: UIView {
         let uiImageView = UIImageView()
         uiImageView.backgroundColor = .lightGray
         return uiImageView
-        
-        
     }()
     
     let nameLabel: UILabel = {
@@ -72,9 +70,19 @@ class ComposerView: UIView {
         return uiLabel
     }()
     
-    let bioLabel: UILabel = UILabel()
+    let bioLabel: UILabel = {
+        let uiLabel = UILabel()
+        uiLabel.textColor = .black
+        uiLabel.layer.borderWidth = 5
+        uiLabel.layer.borderColor = UIColor.black.cgColor
+        return uiLabel
+    }()
     
-    let alternateImageButton: UIButton = UIButton()
+    let alternateImageButton: UIButton = {
+        let alternateImageButton = UIButton()
+        
+        return alternateImageButton
+    }()
     
     
     
@@ -123,17 +131,20 @@ class ComposerView: UIView {
         
         // nameLabel
         NSLayoutConstraint.activate([
-            
+            nameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            nameLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor)
         ])
         
         // bioLabel
         NSLayoutConstraint.activate([
-            
+            bioLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            bioLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor)
         ])
         
         // alternateImageButton
         NSLayoutConstraint.activate([
-            
+            alternateImageButton.centerYAnchor.constraint(equalTo: centerYAnchor),
+            alternateImageButton.centerXAnchor.constraint(equalTo: centerXAnchor)
         ])
     }
 }

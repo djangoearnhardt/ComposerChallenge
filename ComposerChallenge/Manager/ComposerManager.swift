@@ -41,5 +41,4 @@ class ComposerManager {
         let composerModel = try decoder.decode([Composer].self, from: data)
         return composerModel
     }
-    
 }
