@@ -12,6 +12,7 @@ class ComposerView: UIView {
     // Creating an ascii art representation of your view
     // can be really helpful when adding constraints
     
+    
     /*
       -------------------------
      |       ----------        |
